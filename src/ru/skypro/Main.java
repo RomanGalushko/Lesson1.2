@@ -5,8 +5,6 @@ import java.util.stream.IntStream;
 public class Main {
 
     public static void main(String[] args) {
-
-
         // Task 1
         byte first=5;
         short second=500;
@@ -18,8 +16,6 @@ public class Main {
         boolean eight=8>first;
         boolean nine=8>second;
         System.out.println("Правда или Ложь :"+" 8>5 -"+eight+"  8>500 - "+nine);
-
-
         // Task 2
         float boxerFirst=78.2f;
         float boxerSecond=82.7f;
@@ -27,8 +23,6 @@ public class Main {
         System.out.println("Общий вес двух бойцов - "+GeneralWeight+" кг.");
         var Difference=(boxerFirst+boxerSecond)%boxerFirst;
         System.out.println("Разница между весами бойцов - "+Difference+" кг.");
-
-
         //Task 3
         short Bananas=5; // 1 банан = 80 гр.
         Bananas *=80;
@@ -41,8 +35,6 @@ public class Main {
         var SportBreakfast=Bananas+Milk+IceCream+RawEgg;
         float Breakfast=SportBreakfast/1000f;
         System.out.println("Вес спорт-завтрака : "+SportBreakfast+" грамм = "+Breakfast+" кг!");
-
-
         // Task 4
         short generalWeight=7; // в кг.
         generalWeight *=1000;  //переводим в граммы
@@ -54,8 +46,6 @@ public class Main {
         System.out.println("При ежедневной потери в "+weight2+" гр, спортсмен похудеет за : "+result2+" дней.");
         var averageValue=(result1+result2)/2;
         System.out.println("В среднем спортcмену потребуется :"+averageValue+" день!");
-
-
         //Task 5
         int Masha=67_760;
         int Denis=83_690;
@@ -70,33 +60,5 @@ public class Main {
         int KristinaDifference=(Kristina+KristinaNew)%Kristina*12;
         System.out.println("Кристина теперь получает = "+KristinaNew+" руб.!"+"Годовой доход вырос на "+KristinaDifference+" рублей!");
 
-
-        //Task 6
-        byte a=12;
-        byte b=27;
-        byte c=44;
-        byte d=15;
-        byte e=9;
-        int result=a*(b+(c-d*e));
-        System.out.println(-result);
-
-
-        //Task 7
-        int A=5;
-        int B=7;
-
-        A=A+B;
-        B=A-B;
-        A=A-B;
-        System.out.println("A = "+A+" B = "+B);
-
-        //Task 8
-        int C=256;
-        int D=C/10 % 10;
-        System.out.println(D);
-
-        int E=789;
-        int J=E/100+1;
-        System.out.println(J);
     }
 }
